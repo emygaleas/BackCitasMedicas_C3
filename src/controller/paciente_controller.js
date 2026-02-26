@@ -74,7 +74,7 @@ const registroPaciente = async (req, res) => {
     await nuevoPaciente.save();
 
     // Respuesta
-    res.status(200).json({ msg: "Usuario creado con éxito" });
+    res.status(200).json({ msg: "Paciente creado con éxito" });
 
   } catch (error) {
     res.status(500).json({ msg: `❌ Error en el servidor - ${error}` });

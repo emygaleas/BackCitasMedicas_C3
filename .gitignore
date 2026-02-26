@@ -1,5 +1,5 @@
 node_modules
-.env
+env
 
 Paciente.js
 paciente_controller.js

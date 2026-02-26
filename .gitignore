@@ -2,10 +2,6 @@ node_modules
 env
 .env
 
-Especialidad.js
-especialidad_controller.js
-especialidad_routes.js
-
 Cita.js
 cita_controller.js
 cita_routes.js

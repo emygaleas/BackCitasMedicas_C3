@@ -9,7 +9,7 @@ const registro = async (req, res) => {
 
     // validar datos
     // campos vacios
-    if (Object.values(req.body).includes("")) return res.status(400).json({ msg: "Lo sentimos, debes llenar todos los campos" });
+    if (Object.values(req.body).includes("") || Object.values(req.body).some(val => val.trim() === "")) return res.status(400).json({ msg: "Lo sentimos, debes llenar todos los campos" });
 
     // email en minusculas
     const emailMin = emailUsuario.toLowerCase().trim();

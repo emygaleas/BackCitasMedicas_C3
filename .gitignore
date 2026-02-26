@@ -2,10 +2,6 @@ node_modules
 env
 .env
 
-Paciente.js
-paciente_controller.js
-paciente_routes.js
-
 Especialidad.js
 especialidad_controller.js
 especialidad_routes.js

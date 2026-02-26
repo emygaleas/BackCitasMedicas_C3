@@ -22,4 +22,7 @@ app.use("/api/citas", cita_routes)
 
 app.get('/',(req,res)=>{res.send("Server on")}) // ruta raíz
 
+// Manejo de una ruta que no sea encontrada
+app.use((req,res)=>res.status(404).send("Endpoint no encontrado - 404"))
+
 export default app

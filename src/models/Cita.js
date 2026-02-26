@@ -1,7 +1,5 @@
 import { Schema, model } from "mongoose";
 import mongoose from "mongoose";
-import Paciente from "./Paciente.js";
-import Especialidad from "./Especialidad.js";
 
 const citaSchema = new Schema({
     codigoCita:{
